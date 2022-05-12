@@ -15,7 +15,7 @@
   }
 
 body {
-  
+    background-color: azure;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     overflow: hidden;
@@ -105,12 +105,15 @@ h1 {
   .split.right {
     right: 0;
     background: url('Back\ of\ yugioh\ card.png');
-    background-repeat: no-repeat;
+    
     background-size: cover;
   }
 
   .split.left::before {
     
+    background: url('Charizard.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     content: '';
     position: absolute;
     width: 100%;
@@ -120,6 +123,9 @@ h1 {
 
   .split.right::before {
   
+    background: url('Blue-eyes White dragon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     content: '';
     position: absolute;
     width: 100%;
@@ -144,4 +150,9 @@ h1 {
       padding: 1.2rem;
       width: 12rem;
     }
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
   }
