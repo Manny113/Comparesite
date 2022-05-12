@@ -1,5 +1,12 @@
 # Comparesite4
 
+Group: 1
+Emanuel
+Ira
+Yosuf
+Pou
+Siyang
+
 This website is suppose to compare the two trading card games (Pokemon and Yu-gi-oh!)
 
 The images we will use for our flagship TGCs (Trading Card Game)
@@ -26,7 +33,7 @@ In person play : You can usually play in person  at a local card/hobby shop or w
 Onlie play: You can play pokemon the trading card game online Via, Pokemon trading card game online
 
 
-        ## YU-Gi-Oh! ## [Emanuel's role]
+        ## YU-Gi-Oh! ## [Emanuel]
 -Find out information on Card types
 Monster Cards
 Spell Cards

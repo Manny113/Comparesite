@@ -1,54 +1,35 @@
 <!DOCTYPE html>
+<!--This is the beginning of the code and the language it will show up as -->
 <html lang="en">
-<head>
-    <style>
-        th, td {
-          border: 1px solid black;
-          border-radius: 10px;
-        }
-        
-    </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon (TCG)</title>
-   
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--This names the tab of the website-->
+    <title>So you wanna be a master?</title>
+  </head>
+  <body>
+    <center> <a href="../Index.html" class="btn">HOME</a> </center>
+    <!--This code is pulling from the css page to make everything in its borders fit to the size classified on the css page -->
+    <div class="container">
+      <!--This pulls the proporties from the panel Active type that us used in the css sheet to measure out the image that is selected  -->
+      <div class="panel active" style="background-image: url('Charizard.png')">
+        <h3>
+          Pokemon Card
+        </h3>
+      </div>
+<!--This pulls the proporties from the panel type that us used in the css sheet to measure out the image  --> 
+      <div class="panel" style="background-image: url('N\ trainer\ card.png')">
+        <h3>Trainer Cards </h3>
+      </div>
+      <!--This pulls the proporties from the panel type that us used in the css sheet to measure out the image  --> 
+      <div class="panel" style="background-image: url('Pokemon\ Energy\ Cards.jpg')">
+        <h3>Energy Cards</h3>
+      </div> 
 
 
-<body>
-    <center> <h3>So You Wanna learn about Pokemon The Trading Card Game?</h3></center>
-
-    <p>  Well the Trading card game of Pokemon is very deep so lets cover it by category shall we? </p>
-
-    <table style="width:100%">
-        <tr>
-          <th>Card Type</th>
-          <th> Rules</th> 
-          <th>Competetive Play Formats</th>
-        </tr>
-        <tr>
-          <td>Poke'mon </td>
-          <td>How to Play</td>
-          <td>50</td>
-        </tr>
-        <tr>
-          <td>Trainer</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Energy</td>
-          <td>Doe</td>
-          <td>80</td>
-        </tr>
-
-    
-      </table>
-    
-
-
-
-
-
-</body>
+    </div>
+<!--This represents the source of the javascript that will be pulled from in the folder of this website  -->
+    <script src="scripts.js"></script>
+  </body>
 </html>
