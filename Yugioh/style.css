@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -26,25 +34,25 @@ body {
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 35vw;
 }
 
 .panel {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 70vh;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
-  margin: 10px;
+  margin: 20px;
   position: relative;
   -webkit-transition: all 700ms ease-in;
 }
 
 .panel h3 {
-  font-size: 24px;
+  font-size: 30px;
   position: absolute;
   bottom: 20px;
   left: 20px;
