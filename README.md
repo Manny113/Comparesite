@@ -42,4 +42,8 @@ Trap Cards
 
 - Find out information on forms of play
 
+# Due to time restraints the extra details were not implimented but will be added later on for the teams personal practice and profiles.
+
+# Next step is making the panels slightly transparent and fully visible once active. 
+
 
